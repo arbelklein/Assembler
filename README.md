@@ -58,9 +58,20 @@ The externals file contains the usage of symbols defined as `.external` in the a
 - The order of the lines is not significant.
 
 ## Examples
-1. Failed to open a file
+1. Failed to open an input file:
+
 ![Example Image](Examples/BAD/cant_open_file.jpg)
    
-3. Failed
+2. Missing arguments:
+
+![Example Image](Examples/BAD/no_arguments.jpg)
+
+3. Running `Examples/BadFirstRound/tester.as` file:
+
+![Example Image](Examples/BadFirstRound/errors.png)
+
+4. Running `Examples/BadSecondRound/tester.as` file:
+
+![Example Image](Examples/BadSecondRound/errors.jpg)
 
 
