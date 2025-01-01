@@ -17,12 +17,12 @@ The assembly language used in this project is tailored to a simulated computer m
 
 ## Usage
 Compile the assembler using the `MakeFile`:
-```
+```sh
 make
 ```
 
 Run the assembler with an input assembly file:
-```
+```sh
 ./assembler input.asm
 ```
 
@@ -60,18 +60,18 @@ The externals file contains the usage of symbols defined as `.external` in the a
 ## Examples
 1. Failed to open an input file:
 
-![Example Image](Examples/BAD/cant_open_file.jpg)
+    ![Example Image](Examples/BAD/cant_open_file.jpg)
    
 2. Missing arguments:
 
-![Example Image](Examples/BAD/no_arguments.jpg)
+    ![Example Image](Examples/BAD/no_arguments.jpg)
 
 3. Running `Examples/BadFirstRound/tester.as` file:
 
-![Example Image](Examples/BadFirstRound/errors.png)
+    ![Example Image](Examples/BadFirstRound/errors.png)
 
 4. Running `Examples/BadSecondRound/tester.as` file:
 
-![Example Image](Examples/BadSecondRound/errors.jpg)
+    ![Example Image](Examples/BadSecondRound/errors.jpg)
 
 
